@@ -73,112 +73,142 @@
 
 
 <body>
-  <h1>Feyza'nın Portfolyosu</h1>
-
-  <p>
-    Bilgisayar mühendisliği öğrencisiyim ve
-    <strong>frontend geliştirme</strong> alanında kendimi geliştiriyorum.
-  </p>
-
-  <p>
-    Bu sayfada öğrenme sürecimi, becerilerimi ve geliştirdiğim
-    projeleri paylaşacağım.
-  </p>
-
-  <p>
-    <a href="#about">Hakkımda bölümüne git</a>
-  </p>
-
-  <p>
-    <a href="#skills">Beceriler bölümüne git</a>
-  </p>
-
-  <p>
-    <a href="#projects">Projeler bölümüne git</a>
-  </p>
-
-  <section id="about">
-    <h2>Hakkımda</h2>
-
-    <img
-      src="../assets/images/profile.png"
-      alt="Feyza'nın profil fotoğrafı"
-      width="250"
-    >
+  <header>
+    <h1>Feyza'nın Portfolyosu</h1>
 
     <p>
-      Frontend geliştirmeye HTML, CSS ve JavaScript'in temel mantığını
-      öğrenerek başladım.
+      Bilgisayar mühendisliği öğrencisi ve
+      <strong>frontend developer</strong> adayıyım.
     </p>
 
-    <p>
-      Amacım, tasarımları responsive web sayfalarına dönüştürebilen ve
-      kullanıcı etkileşimleri geliştirebilen bir frontend developer olmak.
-    </p>
-  </section>
+    <nav aria-label="Ana navigasyon">
+      <ul>
+        <li>
+          <a href="#about">Hakkımda</a>
+        </li>
 
-  <section id="skills">
-    <h2>Becerilerim</h2>
+        <li>
+          <a href="#skills">Becerilerim</a>
+        </li>
 
-    <ul>
-      <li>HTML öğreniyorum</li>
-      <li>CSS öğreniyorum</li>
-      <li>JavaScript öğreniyorum</li>
-      <li>Git ve GitHub kullanıyorum</li>
-    </ul>
-  </section>
+        <li>
+          <a href="#projects">Projelerim</a>
+        </li>
 
-  <section id="projects">
-    <h2>Projelerim</h2>
+        <li>
+          <a href="#learning-path">Öğrenme sıram</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    <h3>Kişisel Tanıtım Sayfası</h3>
+  <main>
+    <section id="about">
+      <h2>Hakkımda</h2>
 
-    <p>
-      Semantik HTML kullanarak hazırladığım ilk frontend projem.
-    </p>
-
-    <h3>İş Başvuru Takipçisi</h3>
-
-    <p>
-      JavaScript öğrenme sürecimin sonunda geliştireceğim uygulama.
-    </p>
-  </section>
-
-  <section>
-    <h2>Öğrenme Sıram</h2>
-
-    <ol>
-      <li>Web'in çalışma mantığını öğrenmek</li>
-      <li>HTML ile doğru sayfa yapısı kurmak</li>
-      <li>CSS ile responsive tasarım oluşturmak</li>
-      <li>JavaScript ile etkileşim eklemek</li>
-      <li>API'den veri almak</li>
-    </ol>
-  </section>
-
-  <section>
-    <h2>Faydalı Bağlantılar</h2>
-
-    <ul>
-      <li>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-          target="_blank"
-          rel="noopener noreferrer"
+      <div>
+        <img
+          src="../assets/images/profile.png"
+          alt="Feyza'nın profil fotoğrafı"
+          width="250"
         >
-          MDN HTML dokümantasyonunu incele
-        </a>
-      </li>
 
-      <li>
-        <a
-          href="https://github.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub'ı aç
-        </a>
-      </li>
-    </ul>
-  </section>
+        <div>
+          <p>
+            Frontend geliştirmeye HTML, CSS ve JavaScript'in temel
+            mantığını öğrenerek başladım.
+          </p>
+
+          <p>
+            Amacım, tasarımları responsive web sayfalarına dönüştürebilen
+            ve kullanıcı etkileşimleri geliştirebilen bir frontend
+            developer olmak.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Becerilerim</h2>
+
+      <ul>
+        <li>HTML öğreniyorum</li>
+        <li>CSS öğreniyorum</li>
+        <li>JavaScript öğreniyorum</li>
+        <li>Git ve GitHub kullanıyorum</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projelerim</h2>
+
+      <article>
+        <h3>Kişisel Tanıtım Sayfası</h3>
+
+        <p>
+          Semantik HTML kullanarak geliştirdiğim ilk frontend projem.
+        </p>
+
+        <p>
+          Bu projede başlıklar, listeler, bağlantılar, görseller ve
+          semantik sayfa etiketlerini kullanıyorum.
+        </p>
+      </article>
+
+      <article>
+        <h3>İş Başvuru Takipçisi</h3>
+
+        <p>
+          JavaScript öğrenme sürecimin sonunda geliştireceğim uygulama.
+        </p>
+
+        <p>
+          Uygulama; başvuru ekleme, düzenleme, silme, filtreleme ve
+          localStorage özelliklerine sahip olacak.
+        </p>
+      </article>
+    </section>
+
+    <section id="learning-path">
+      <h2>Öğrenme Sıram</h2>
+
+      <ol>
+        <li>Web'in çalışma mantığını öğrenmek</li>
+        <li>HTML ile anlamlı sayfa yapısı kurmak</li>
+        <li>CSS ile responsive tasarım oluşturmak</li>
+        <li>JavaScript ile kullanıcı etkileşimi eklemek</li>
+        <li>API'den veri alıp arayüzde göstermek</li>
+      </ol>
+    </section>
+
+    <aside>
+      <h2>Faydalı Bağlantılar</h2>
+
+      <ul>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            MDN HTML dokümantasyonunu incele
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://github.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub'ı aç
+          </a>
+        </li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2026 Feyza. Frontend öğrenme projesi.</p>
+  </footer>
 </body>
