@@ -1,0 +1,9 @@
+# VS Code'a özel yerel ayarlar
+.vscode/
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# Geçici log dosyaları
+*.log
